@@ -10,6 +10,7 @@
 - **Delete Notes**: Users can delete notes they no longer need.
 - **Auto Save**: Notes are saved to `localStorage` to persist between sessions.
 - **Text Formatting**: Basic text formatting options such as bold, italic, and underline are available.
+- **End-to-End Encryption**: Users can securely password-protect individual notes using CryptoJS.
 - **Responsive Design**: The layout adjusts to different screen sizes.
 
 ## Technologies Used
@@ -82,6 +83,7 @@ To run the application locally, follow these steps:
 - **Sharing Notes**: Adding functionality to share notes via email or a link.
 - **User Authentication**: Allowing users to sign up and sync their notes across devices.
 - **Rich Text Editing**: Expanding the editor with more formatting options (e.g., headings, lists, etc.).
+- **Encryption Settings**: Providing advanced encryption options and key management for more flexibility.
 
 ## Contributing
 
