@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply px-4 py-2 rounded-md transition-all duration-300;
+}
+
+.btn-primary {
+    @apply px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600;
+  }
+  
+
+.btn-secondary {
+  @apply bg-secondary text-white hover:bg-secondaryDark;
+}
+
+
+.btn-danger {
+  @apply bg-accent text-white hover:bg-red-600;
+}
+
+.notes-list .note {
+  @apply p-4 border border-gray-200 mb-4 bg-white rounded-lg shadow-lg transition-all duration-300;
+}
+
+.note.pinned {
+  @apply border-2 border-yellow-400;
+}
+
+.tooltip {
+  @apply absolute bg-gray-700 text-white p-2 rounded shadow-lg z-10;
+}
+
+.toolbar {
+  @apply bg-gray-100 p-4 shadow-md flex space-x-4;
+}
+
+.navbar {
+  @apply bg-primary p-4 flex justify-between items-center shadow-md;
+}
+
+.highlight {
+  background-color: #ffeeba; /* Yellow highlight color */
+  font-weight: bold;
+}
